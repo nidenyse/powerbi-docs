@@ -76,13 +76,14 @@ For example, you could create a funnel chart of customers and group values by ye
 Read much more about [designing a Power BI report](../create-reports/desktop-report-view.md).
 
 > [!NOTE]
-> Power BI Desktop only supports integrated authentication when publishing reports to Power BI Report Server. Basic authentication is not supported but you can use the portal for this use case. 
+> Some visuals such as paginated report visual will only work on the Power BI service only. Rendering these visuals on Power BI Report Server will give an "Unsupported visual" error.
 
 ## Step 4: Save your report to the report server
-When your report is ready, you save it to the Power BI Report Server you chose in Step 2.
 
 > [!NOTE]
-> Some visuals such as paginated report visual will only work on the Power BI service only. Rendering these visuals on Power BI Report Server will give an "Unsupported visual" error.
+> Power BI Desktop only supports integrated authentication when publishing reports to Power BI Report Server. Basic authentication is not supported but you can use the portal for this use case. 
+
+When your report is ready, you save it to the Power BI Report Server you chose in Step 2.
 
 1. On the **File** menu, select **Save as** > **Power BI Report Server**.
    
